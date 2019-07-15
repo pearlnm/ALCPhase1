@@ -18,14 +18,7 @@ public class Main2WebPage extends AppCompatActivity
         setContentView(R.layout.activity_main2_web_page);
 
         WebView About_us_Wb = findViewById(R.id.webView);
-        About_us_Wb.setWebViewClient(new WebViewClient()
-        {
-            @Override
-            public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error)
-            {
-                handler.proceed();
-            }
-        });
+        About_us_Wb.setWebViewClient(new WebViewClient());
         About_us_Wb.getSettings().getLoadsImagesAutomatically();
         WebSettings wbSettings = About_us_Wb.getSettings();
         wbSettings.setJavaScriptEnabled(true);
