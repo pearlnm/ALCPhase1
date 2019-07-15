@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">My Perola</string>
     <string name="action_settings">Settings</string>
+    <string name="track">Andriod</string>
+    <string name="email">pearlmokoka@gmail.com</string>
+    <string name="country">South_Africa</string>
+    <string name="phone_number">27727954972</string>
+    <string name="slack_name">Pearl Mokoka</string>
+    <string name="pearl_mokoka">Pearl Mokoka</string>
+    <string name="track_android">Track : Android</string>
+    <string name="todo">TODO</string>
+    <string name="country_south_africa">Country : South Africa</string>
+    <string name="email_pearlmokoka_gmail_com">Email : pearlmokoka@gmail.com</string>
+    <string name="phone_number_27727954972">Phone Number : 27727954972</string>
+    <string name="slack_username_pearl_mokoka">Slack Username : @Pearl Mokoka</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
 </resources>
+
