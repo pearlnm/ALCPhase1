@@ -10,12 +10,12 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="128dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="464dp"
-        android:background="#271976D2"
+        android:background="#F57C00"
         android:fontFamily="sans-serif-black"
         android:text="@string/about_alc"
         android:textAlignment="center"
@@ -24,26 +24,26 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="142dp"
         android:layout_height="45dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="#251976D2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#F57C00"
         android:fontFamily="sans-serif-black"
         android:text="@string/my_profile"
         android:textAlignment="center"
         android:textIsSelectable="true"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/guideline9"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
@@ -56,7 +56,7 @@
         android:background="#FFFFFF"
         android:text="@string/welcome_to_alc_4_0"
         android:textAlignment="center"
-        android:textColor="#303F9F"
+        android:textColor="#071B96"
         android:textIsSelectable="false"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -92,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="236dp" />
+        app:layout_constraintGuide_begin="253dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="337dp" />
+        app:layout_constraintGuide_begin="380dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
