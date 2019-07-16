@@ -26,47 +26,45 @@ public class MainActivity extends AppCompatActivity
         button2 = findViewById(R.id.button2);
         button1.setOnClickListener(new View.OnClickListener() {
 
-                                       @Override
-                                       public void onClick(View view)
-                                       {
-                                           Intent intent = new Intent(MainActivity.this, Main2WebPage.class);
-                                           startActivity(intent);
-                                       }
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(MainActivity.this, Main2WebPage.class);
+                startActivity(intent);
+            }
                                    }
         );
-        button2.setOnClickListener(new View.OnClickListener()
-                                   {
-                                       @Override
-                                       public void onClick(View view)
-                                       {
-                                           Intent intent = new Intent(MainActivity.this, Main3Profile.class);
-                                           startActivity(intent);
-                                       }
-                                   }
-        );
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(MainActivity.this, Main3Profile.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+            @Override
+            public boolean onCreateOptionsMenu(Menu menu)
+                {
+                    // Inflate the menu; this adds items to the action bar if it is present.
+                    getMenuInflater().inflate(R.menu.menu_main, menu);
+                return true;
+                }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+             @Override
+             public boolean onOptionsItemSelected(MenuItem item)
+                {
+                    // Handle action bar item clicks here. The action bar will
+                    // automatically handle clicks on the Home/Up button, so long
+                    // as you specify a parent activity in AndroidManifest.xml.
+                     int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings)
-        {
-            return true;
-        }
+                    //noinspection SimplifiableIfStatement
+              if (id == R.id.action_settings)
+                    {
+                    return true;
+                    }
 
         return super.onOptionsItemSelected(item);
     }
