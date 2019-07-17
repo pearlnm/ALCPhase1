@@ -10,19 +10,21 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="146dp"
-        android:layout_height="146dp"
+        android:layout_width="202dp"
+        android:layout_height="194dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/todo"
-        android:rotation="270"
+        android:rotation="360"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="@+id/guideline20"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/pearl" />
+        app:layout_constraintVertical_bias="0.485"
+        app:srcCompat="@drawable/meme" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
